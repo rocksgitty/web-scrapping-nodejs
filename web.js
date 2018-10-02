@@ -27,7 +27,7 @@ rp(options)
 		console.log(err);
 	});
 
-function getChallengesCompletedAndPushToUserArray(userData) {
+function getChallengesCompletedAndPush(userData) {
 	var i = 0;
 	function next() {
 		if (i < userData.length) {
